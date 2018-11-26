@@ -22,7 +22,7 @@ for filename in filenames:
     else:
         num = 1
 
-    # Name:{serial number}.png
+    # Name:{serial number}.png   >   if the date is all the same
     targetname = "{}.png".format(num)
     shutil.move(filename, targetname)
 
